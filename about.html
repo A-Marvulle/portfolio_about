@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sobre</title>
+    <link rel="stylesheet" href="aboutstyle.css" />
+    <link rel="stylesheet" href="card.css" />
+
+    <script src="slides.js" type="text/babel"></script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin=""></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin=""></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="https://a-marvulle.github.io/portfolio/#welcome-section">Home</a>
+        </li>
+        <li>
+          <a href="">Sobre</a>
+        </li>
+        <li>
+          <a href="https://a-marvulle.github.io/portfolio/#projects">Projetos</a>
+          <ul class="submenu">
+            <li><a href="https://a-marvulle.github.io/portfolio/#freecodecamp">FreeCodeCamp</a></li>
+            <li><a href="https://a-marvulle.github.io/portfolio/#if">IFSP</a></li>
+            <li><a href="https://a-marvulle.github.io/portfolio/#me">Pessoais</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="https://a-marvulle.github.io/portfolio/#contact">Contato</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="education">
+      <h2>Formação</h2>
+      <div class="slideshow">
+        <div class="education-slides">
+          <div id="hs"></div>
+        </div>
+        <div class="education-slides">
+          <div id="clg"></div>
+        </div>
+        <div class="education-slides">
+          <div id="pstg"></div>
+        </div>
+        <a class="prev" onclick="plusEducationSlides(-1)">&larr;</a>
+        <a class="next" onclick="plusEducationSlides(1)">&rarr;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="education-dot" onclick="currentEducationSlide(1)"></span>
+        <span class="education-dot" onclick="currentEducationSlide(2)"></span>
+        <span class="education-dot" onclick="currentEducationSlide(3)"></span>
+      </div>
+    </section>
+    <hr>
+    <section class="work">
+      <h2>Experiência Profissional</h2>
+      <div class="slideshow">
+        <div class="work-slides">
+          <div id="ma"></div>
+        </div>
+        <div class="work-slides">
+          <div id="im"></div>
+        </div>
+        <div class="work-slides">
+          <div id="ac"></div>
+        </div>
+        <a class="prev" onclick="plusWorkSlides(-1)">&larr;</a>
+        <a class="next" onclick="plusWorkSlides(1)">&rarr;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="work-dot" onclick="currentWorkSlide(1)"></span>
+        <span class="work-dot" onclick="currentWorkSlide(2)"></span>
+        <span class="work-dot" onclick="currentWorkSlide(3)"></span>
+      </div>
+    </section>
+    <hr>
+    <section class="certification">
+      <h2>Cursos</h2>
+      <div id="course">           
+      </div>
+      <a href="https://www.linkedin.com/in/alfredoperesmarvulle-87920a1b7/details/certifications/" target="_blank" class="btn profile">Ver Mais</a>
+    </section>   
+
+    <footer>
+      <div class="cv">
+        <a href="/Currículo Alfredo.pdf" class="btn" download>Baixar Curriculo <i class="fa fa-download"></i></a>
+        <span class="att">Ultima Atualização: 01/04/2024</span>
+      </div>
+
+
+      <div class="contact-links">
+        <a id="profile-link" href="https://github.com/A-Marvulle" target="_blank" class="btn contact-details">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="mailto:alfredo.marvulle@gmail.com" target="_blank" class="btn contact-details">
+          <i class="fas fa-at"></i> alfredo.marvulle@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/alfredoperesmarvulle-87920a1b7/" target="_blank" class="btn contact-details">
+          <i class="fa fa-users"></i> LinkedIn
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=5511976007382&text=&type=phone_number&app_absent=0" target="_blank" class="btn contact-details">
+          <i class="fab fa-whatsapp"></i> +55 11 976007382
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
