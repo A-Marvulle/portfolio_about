@@ -65,7 +65,7 @@ class HighSchool extends React.Component {
         super(props)
         this.state = {
             componentes: [
-                { id: 1, name: 'Etec Raposo Tavares', course: 'ETIM Informática', year: '2018 - 2020', kind: 'Ensino Médio Técnico', img: '/cps.png' }
+                { id: 1, name: 'Etec Raposo Tavares', course: 'ETIM Informática', year: '2018 - 2020', kind: 'Ensino Médio Técnico', img: 'cps.png' }
             ]
         }
     }
@@ -103,7 +103,7 @@ class College extends HighSchool {
         super(props);
         this.state = {
             componentes: [
-                { id: 1, name: 'IFSP - Pirituba', course: 'Tecnologia em Análise e Desenvolvimento de Sistema', year: '2021 - 2023', kind: 'Ensino Superior', img: './if.png' }
+                { id: 1, name: 'IFSP - Pirituba', course: 'Tecnologia em Análise e Desenvolvimento de Sistema', year: '2021 - 2023', kind: 'Ensino Superior', img: 'if.png' }
             ]
         };
     }
@@ -114,7 +114,7 @@ class PostGraduation extends HighSchool {
         super(props);
         this.state = {
             componentes: [
-                { id: 1, name: 'SENAC', course: 'Engenharia da Qualidade de Software', year: '2024 - 2025', kind: 'Pós-Graduação', img: './senac.png' }
+                { id: 1, name: 'SENAC', course: 'Engenharia da Qualidade de Software', year: '2024 - 2025', kind: 'Pós-Graduação', img: 'senac.png' }
             ]
         };
     }
@@ -125,7 +125,7 @@ class Intern extends React.Component {
         super(props);
         this.state = {
             componentes: [
-                { id: 1, name: 'Moreno Advogados', position: 'Estagiário em Informática', year: '2022 - 2023', img: './moreno.png' }
+                { id: 1, name: 'Moreno Advogados', position: 'Estagiário em Informática', year: '2022 - 2023', img: 'moreno.png' }
             ]
         };
     }
@@ -163,7 +163,7 @@ class Tech extends Intern {
         super(props);
         this.state = {
             componentes: [
-                { id: 1, name: 'Instituto Morgan', position: 'Técnico de Suporte Jr', year: '2023', img: './im.png' }
+                { id: 1, name: 'Instituto Morgan', position: 'Técnico de Suporte Jr', year: '2023', img: 'im.png' }
             ]
         };
     }
@@ -174,7 +174,7 @@ class Volunt extends Intern {
         super(props);
         this.state = {
             componentes: [
-                { id: 1, name: 'ACEDA', position: 'Voluntário de Design', year: '2024 (atualmente)', img: './aceda.png' }
+                { id: 1, name: 'ACEDA', position: 'Voluntário de Design', year: '2024 (atualmente)', img: 'aceda.png' }
             ]
         };
     }
@@ -186,15 +186,15 @@ class Courses extends React.Component {
         this.state = {
             componentes: [
                 [
-                    { id: 1, name: 'Mirago', course: 'SEO para Iniciantes', img: './mirago.png' },
-                    { id: 2, name: 'FIAP', course: 'User Experience', img: './fiap.png' },
-                    { id: 3, name: 'freeCodeCamp', course: 'Data Structures', img: './fcc.png' },
-                    { id: 4, name: 'freeCodeCamp', course: 'Responsive Web Design', img: './fcc.png' },
-                    { id: 5, name: 'Alura', course: 'Bootstrap', img: './alura.png' },
-                    { id: 6, name: 'Alura', course: 'CSS Grid', img: './alura.png' },
-                    { id: 7, name: 'Alura', course: 'FlexboxA', img: './alura.png' },
-                    { id: 8, name: 'Alura', course: 'Responsividade', img: './alura.png' },
-                    { id: 9, name: 'Alura', course: 'JavaScript', img: './alura.png' }
+                    { id: 1, name: 'Mirago', course: 'SEO para Iniciantes', img: 'mirago.png' },
+                    { id: 2, name: 'FIAP', course: 'User Experience', img: 'fiap.png' },
+                    { id: 3, name: 'freeCodeCamp', course: 'Data Structures', img: 'fcc.png' },
+                    { id: 4, name: 'freeCodeCamp', course: 'Responsive Web Design', img: 'fcc.png' },
+                    { id: 5, name: 'Alura', course: 'Bootstrap', img: 'alura.png' },
+                    { id: 6, name: 'Alura', course: 'CSS Grid', img: 'alura.png' },
+                    { id: 7, name: 'Alura', course: 'FlexboxA', img: 'alura.png' },
+                    { id: 8, name: 'Alura', course: 'Responsividade', img: 'alura.png' },
+                    { id: 9, name: 'Alura', course: 'JavaScript', img: 'alura.png' }
                 ]
             ]
         };
