@@ -4,12 +4,6 @@
     <title>Sobre</title>
     <link rel="stylesheet" href="aboutstyle.css" />
     <link rel="stylesheet" href="card.css" />
-
-    <script src="slides.js" type="text/babel"></script>
-    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin=""></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin=""></script>
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
@@ -38,63 +32,154 @@
       </ul>
     </nav>
 
-    <section class="education">
-      <h2>Formação</h2>
-      <div class="slideshow">
-        <div class="education-slides">
-          <div id="hs"></div>
+    <main>
+      <section class="education">
+        <h2>Formação</h2>
+        <div class="card">
+          <img class="icon" src="/img/cps.png" alt="Logo do Centro Paula Souza">
+          <div>
+            <p class="instituicao">Etec Raposo</p>
+            <p>Técnico de Informática Integrado ao Ensino Médio</p>
+            <span class="time">2018 - 2020</span>
+          </div>
+          
         </div>
-        <div class="education-slides">
-          <div id="clg"></div>
+        <div class="card">
+          <img class="icon" src="img/if.png" alt="Logo Instituto Federal de São Paulo">
+          <div>
+            <p class="instituicao">IFSP Pirituba</p>
+            <p>Técnologia em Análise e Desenvolvimento de Sistemas</p>
+            <span class="time">2021 - 2023</span>
+          </div>
+        
         </div>
-        <div class="education-slides">
-          <div id="pstg"></div>
+        <div class="card">
+          <img class="icon" src="img/senac.png" alt="Logo SENAC">
+          <div>
+             <p class="instituicao">Senac</p>
+            <p>Pós Graduação em Engenharia da Qualidade de Software</p>
+            <span class="time">2024 - 2025</span>
+          </div> 
         </div>
-        <a class="prev" onclick="plusEducationSlides(-1)">&larr;</a>
-        <a class="next" onclick="plusEducationSlides(1)">&rarr;</a>
-      </div>
-      <br>
-      <div style="text-align:center">
-        <span class="education-dot" onclick="currentEducationSlide(1)"></span>
-        <span class="education-dot" onclick="currentEducationSlide(2)"></span>
-        <span class="education-dot" onclick="currentEducationSlide(3)"></span>
-      </div>
-    </section>
-    <hr>
-    <section class="work">
-      <h2>Experiência Profissional</h2>
-      <div class="slideshow">
-        <div class="work-slides">
-          <div id="ma"></div>
-        </div>
-        <div class="work-slides">
-          <div id="im"></div>
-        </div>
-        <div class="work-slides">
-          <div id="ac"></div>
-        </div>
-        <a class="prev" onclick="plusWorkSlides(-1)">&larr;</a>
-        <a class="next" onclick="plusWorkSlides(1)">&rarr;</a>
-      </div>
-      <br>
-      <div style="text-align:center">
-        <span class="work-dot" onclick="currentWorkSlide(1)"></span>
-        <span class="work-dot" onclick="currentWorkSlide(2)"></span>
-        <span class="work-dot" onclick="currentWorkSlide(3)"></span>
-      </div>
-    </section>
-    <hr>
-    <section class="certification">
-      <h2>Cursos</h2>
-      <div id="course">           
-      </div>
-      <a href="https://www.linkedin.com/in/alfredoperesmarvulle-87920a1b7/details/certifications/" target="_blank" class="btn profile">Ver Mais</a>
-    </section>   
+      </section>
 
+      <hr>
+
+      <section class="jobs">
+        <h2>Experiência Profissional</h2>
+        <div class="card">
+          <img class="icon" src="img/moreno.png" alt="Logo Moreno Advogados">
+          <div>
+            <p class="instituicao">Moreno Advogados</p>
+            <p><i>Estágio</i></p>
+            <p class="funcao">Manutenção do site (lowcode), suporte técnico aos colaboradores e alimentação do banco de dados interno.</p>
+            <span class="time">2022 - 2023</span>
+            <p>
+              <a class="amostra" href="http://www.morenoadvogados.com.br/" target="_blank">
+                <i class="fa fa-globe"></i>Site
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="icon" src="img/im.png" alt="Logo Instituto Morgan">
+          <div>
+            <p class="instituicao">Instituto Morgan</p>
+            <p><i>Técnico de Suporte Júnior</i></p>
+            <p class="funcao">Suporte aos colaboradores, Social Media e apoio a equipe de Comunicação.</p>
+            <span class="time">2023</span>
+            <p>
+              <a a class="amostra" href="https://www.instagram.com/institutomorgan/" target="_blank">
+                <i class="fa fa-camera-retro"></i>Instagram
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="icon" src="img/aceda.png" alt="Logo aceda">
+          <div>
+            <p class="instituicao">Aceda</p>
+            <p><i>Designer Voluntário</i></p>
+            <p class="funcao">Criação de arte para mídias sociais</p>
+            <span class="time">2024 - (atualmente)</span>
+            <p>
+              <a a class="amostra" href="https://www.instagram.com/aceda.sampa/" target="_blank">
+                <i class="fa fa-camera-retro"></i>Instagram
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <section class="course">
+        <h2>Cursos</h2>
+        <div class="card">
+          <img class="icon" src="/img/alura.png" alt="Logo da Alura">
+          <div>
+            <p class="instituicao">Alura</p>
+            <p>Front-End</p>
+            <span class="skills">Html</span> 
+            <span class="skills">CSS</span> 
+            <span class="skills">Bootstrap</span> 
+            <span class="skills">Javascript</span> 
+            <span class="skills">Acessibilidade Web</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="icon" src="/img/fcc.png" alt="Logo FreeCodeCamp">
+          <div>
+            <p class="instituicao">FreeCodeCamp</p>
+            <p>Responsive Web Design</p>
+            <span class="skills">Html</span> 
+            <span class="skills">CSS</span> 
+            <span class="skills">Bootstrap</span>
+            <span class="skills">Responsividade</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="icon" src="/img/mirago.png" alt="Logo Mirago">
+          <div>
+            <p class="instituicao">Mirago</p>
+            <p>Seo para Iniciantes</p>
+            <span class="skills">SEO</span> 
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="icon" src="/img/fiap.png" alt="Logo FIAP">
+          <div>
+            <p class="instituicao">FIAP</p>
+            <p>User Experience</p>
+            <span class="skills">UX</span>
+            <span class="skills">UI</span>
+            <span class="skills">Design</span> 
+          </div>
+        </div>  
+        <center>
+          <a href="https://www.linkedin.com/in/alfredoperesmarvulle-87920a1b7/details/certifications/" target="_blank" class="btn">
+            Ver Mais
+          </a>
+        </center>
+      </section>
+
+      <hr>
+      
+      <section class="curriculo">
+        <h2>Currículo</h2>
+        <iframe src="img/cvAlfredo.pdf" width="600px" height="200px"></iframe>
+      </section>
+
+    </main>
+
+    
     <footer>
       <div class="cv">
-        <a href="./img/cvAlfredo.pdf" class="btn" download>Baixar Curriculo <i class="fa fa-download"></i></a>
-        <span class="att">Ultima Atualização: 01/04/2024</span>
+        <a href="./img/cvAlfredo.pdf" class="btn download" download>Baixar Curriculo <i class="fa fa-download"></i></a>
+        <p class="att">Ultima Atualização: 01/04/2024</p>
       </div>
 
 

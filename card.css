@@ -1,52 +1,50 @@
-.card {
+.card{
+    border: 2px #45567d solid;
+    border-radius: 10px;
+    padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: left; 
     margin: 20px auto;
     max-width: 650px; 
-  }
-
-.certificates{
-  display: flex;
-  align-items: center;
-  margin: 20px;
+    box-shadow: rgba(69, 86, 125, 0.15) 5px 5px 6px;
 }
 
-  
-.logo {
-  margin-right: 20px; 
-    
+.icon{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
 }
 
-.logo-course img{
-  border-radius: 5%;
-  width: 4rem; 
-  height: 4rem; 
-  max-width: 100%;
-  margin: 1rem;
-  object-fit: cover;
-}
-  
-.logo img {
-  border-radius: 50%; 
-  width: 10rem; 
-  height: 10rem; 
+.instituicao{
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.card div {
-  text-align: left;
-  width: 100%;
+.amostra{
+    color: #d41010;
+    text-decoration: underline;
 }
 
-.name {
-  font-size: 2.75rem;
-  
+.amostra i{
+    margin: 5px
 }
 
-.kind {
-  color: #d41010;
+.funcao{
+    font-weight: lighter;
+    text-align: justify;
 }
-.year { 
-  font-size: small;
-  font-style: italic;
+
+.skills{
+    font-style: italic;
+    background-color: #45567d;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.time {
+    font-size: smaller;
+    font-style: italic;
+    font-weight: lighter;
 }
