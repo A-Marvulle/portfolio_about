@@ -111,16 +111,6 @@ img {
     margin-right: 2rem;
 }
 
-@media (max-width: 28.75em) {
-    .nav {
-        justify-content: center;
-    }
-
-    .nav-list {
-        margin: 0 1rem;
-    }
-}
-
 .nav-list a {
     display: block;
     font-size: 2.2rem;
@@ -132,7 +122,11 @@ img {
     background: var(--main-blue);
 }
 
-
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+}
 
 footer {
     font-weight: 300;
@@ -142,13 +136,6 @@ footer {
     background: var(--main-gray);
     border-top: 4px solid var(--main-red);
     margin-top: 5rem;
-}
-
-@media (max-width: 28.75em) {
-    footer {
-        flex-direction: column;
-        text-align: center;
-    }
 }
 
 .cv {
@@ -177,7 +164,6 @@ hr {
     border-color: var(--sec-red);
 }
 
-
 .att {
     font-size: smaller;
     margin-top: 10px;
@@ -185,6 +171,12 @@ hr {
 
 .curriculo{
     text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .hr-curriculo, .curriculo {
+        display: none;
+    }
 }
 
 

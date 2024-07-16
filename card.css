@@ -1,4 +1,4 @@
-.card{
+.card {
     border: 2px #45567d solid;
     border-radius: 10px;
     padding: 1rem;
@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: left; 
     margin: 20px auto;
-    max-width: 650px; 
+    width: 60%;
     box-shadow: rgba(69, 86, 125, 0.15) 5px 5px 6px;
 }
 
